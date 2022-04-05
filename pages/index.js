@@ -18,7 +18,7 @@ export default function Home() {
   <div class="container px-4 mx-auto relative">
     <div class="max-w-4xl mx-auto text-center">
       <span class="text-xl md:text-2xl font-extrabold text-purple-500">Hello!</span>
-      <h1 class="text-3xl sm:text-4xl lg:text-5xl 2xl:text-6xl font-extrabold font-heading mt-1 mb-8">I design delightful Apps</h1>
+      <h1 class="text-4xl sm:text-4xl lg:text-5xl 2xl:text-6xl font-extrabold font-heading mt-1 mb-8">I design delightful Apps</h1>
       <p class="text-xl md:text-2xl font-extrabold leading-8 mb-8">I specialize in designing healthcare &amp; e-commerce focused apps that are meaningful, easy to use and yet, delightful!</p>
       <div class="max-w-2xl mx-auto">
         <div class="flex items-start md:items-center justify-center">
