@@ -17,9 +17,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <section>
-        <div class="absolute z-20 top-0 inset-x-0 flex justify-center overflow-hidden pointer-events-none blur-2xl">
-        <div class="w-[108rem] flex-none flex justify-end opacity-30">
-          <img src="../public/bg.png" />
+        <div className="absolute inset-x-0 top-0 z-20 flex justify-center overflow-hidden pointer-events-none blur-2xl">
+        <div className="w-[108rem] flex-none flex justify-end opacity-30">
+          <img src="../public/bg.png" alt="bg"/>
         </div>
         </div>
           <div className="w-full px-2 py-16 md:py-24 lg:pt-40 lg:pb-52 md:px-6">
@@ -44,7 +44,7 @@ export default function Home() {
                   </div>
                   <div className="flex flex-wrap justify-center mb-4 -mx-2">
                     <div className="w-full px-2 mb-2 md:w-auto lg:w-2/3 md:mb-0">
-                      {/* <input class="inline-block w-full p-4 text-lg font-extrabold placeholder-indigo-900 shadow border-2 border-indigo-900 rounded outline-none" type="email" placeholder="abhishek@rawat.dev"/> */}
+                      {/* <input className="inline-block w-full p-4 text-lg font-extrabold placeholder-indigo-900 border-2 border-indigo-900 rounded shadow outline-none" type="email" placeholder="abhishek@rawat.dev"/> */}
                     </div>
                     <div className="w-full px-2 md:w-auto lg:w-auto">
                       <a
