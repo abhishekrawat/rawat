@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Image from "next/image"
 import styles from "../styles/Home.module.css"
-import bg from './public/bg.png'
+
 
 export default function Home() {
   return (
@@ -18,14 +18,9 @@ export default function Home() {
       <main className={styles.main}>
         <section>
         <div class="absolute z-20 top-0 inset-x-0 flex justify-center overflow-hidden pointer-events-none blur-2xl">
-        <div class="w-[108rem] flex-none flex justify-end opacity-30"><Image
-        src={bg}
-        alt="Picture of the author"
-        // width={500} automatically provided
-        // height={500} automatically provided
-        // blurDataURL="data:..." automatically provided
-        // placeholder="blur" // Optional blur-up while loading
-      /></div>
+        <div class="w-[108rem] flex-none flex justify-end opacity-30">
+          <img src="../public/bg.png" />
+        </div>
         </div>
           <div className="w-full px-2 py-16 md:py-24 lg:pt-40 lg:pb-52 md:px-6">
             <div className="container relative px-4 mx-auto">
