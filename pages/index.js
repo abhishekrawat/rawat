@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Image from "next/image"
 import styles from "../styles/Home.module.css"
-
+import bgimg from "../public/bg.png"
 
 export default function Home() {
   return (
@@ -18,8 +18,13 @@ export default function Home() {
       <main className={styles.main}>
         <section>
         <div className="absolute inset-x-0 top-0 z-20 flex justify-center overflow-hidden pointer-events-none blur-2xl">
+<<<<<<< HEAD
         <div className="w-[108rem] flex-none flex justify-end opacity-30">
           <img src="../public/bg.png" alt="bg"/>
+=======
+        <div className="w-[108rem] flex-none flex justify-end opacity-40">
+          <Image src={bgimg} />
+>>>>>>> dev
         </div>
         </div>
           <div className="w-full px-2 py-16 md:py-24 lg:pt-40 lg:pb-52 md:px-6">
