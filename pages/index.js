@@ -19,7 +19,7 @@ export default function Home() {
         <section>
         <div className="absolute inset-x-0 top-0 z-20 flex justify-center overflow-hidden pointer-events-none blur-2xl">
         <div className="w-[108rem] flex-none flex justify-end opacity-30">
-          <img src="../public/bg.png" alt="bg"/>
+          <Image src={bgimg} alt="bg"/>
         </div>
         </div>
           <div className="w-full px-2 py-16 md:py-24 lg:pt-40 lg:pb-52 md:px-6">
